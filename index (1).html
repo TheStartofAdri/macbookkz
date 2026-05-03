@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MacBook Air из США — от 650 000 ₸ | Доставка в Казахстан</title>
+  <meta name="description" content="MacBook Air M1–M5 напрямую из США. От 650 000 ₸ — дешевле любого магазина Казахстана. Личная доставка 7–10 дней. Проверка при получении." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:#0a0a0f;--bg2:#111118;--bg3:#18181f;--surface:#1e1e28;--surface2:#252532;
+      --border:rgba(255,255,255,.08);--border2:rgba(255,255,255,.14);
+      --text:#f0f0f8;--text2:#a0a0b8;--text3:#606075;
+      --accent:#3b82f6;--accent2:#60a5fa;--accent-glow:rgba(59,130,246,.25);
+      --green:#22c55e;--green-soft:rgba(34,197,94,.12);
+      --gold:#f59e0b;--gold-soft:rgba(245,158,11,.12);
+      --tg:#2aabee;--tg-dark:#1a8bc4;--red:#ef4444;
+      --r:12px;--rl:20px;--rxl:28px;
+      --shadow:0 4px 32px rgba(0,0,0,.4);--shadowlg:0 8px 64px rgba(0,0,0,.6);
+      --max:860px;--font:'Inter',system-ui,sans-serif;--serif:'Playfair Display',Georgia,serif;
+      --ease:cubic-bezier(.4,0,.2,1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+    img{display:block;max-width:100%;}
+    a{color:inherit;text-decoration:none;}
+    ul{list-style:none;}
+
+    .wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:24px;}
+    section{padding:88px 0;}
+
+    .eyebrow{display:inline-flex;align-items:center;gap:6px;font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);margin-bottom:.8rem;}
+    .eyebrow::before{content:'';width:20px;height:1.5px;background:var(--accent2);}
+    h2{font-family:var(--serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;line-height:1.15;color:var(--text);margin-bottom:1rem;}
+    .lead{color:var(--text2);font-size:1.05rem;max-width:540px;line-height:1.7;}
+
+    /* NAV */
+    nav{position:sticky;top:0;z-index:100;background:rgba(10,10,15,.88);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+    .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:var(--max);margin-inline:auto;padding-inline:24px;}
+    .nav-logo{display:flex;align-items:center;gap:9px;}
+    .logo-icon{width:28px;height:28px;background:var(--accent);border-radius:7px;display:flex;align-items:center;justify-content:center;}
+    .logo-text{font-size:.92rem;font-weight:700;}
+    .logo-text span{color:var(--text2);font-weight:400;}
+    .nav-pill{display:flex;align-items:center;gap:6px;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.28);color:#4ade80;font-size:.74rem;font-weight:600;padding:.28rem .8rem;border-radius:50px;}
+    .nav-pill .dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 2s ease-in-out infinite;}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+    .nav-right{display:flex;align-items:center;gap:12px;}
+    .nav-btn{display:inline-flex;align-items:center;gap:6px;background:var(--tg);color:#fff;font-size:.82rem;font-weight:600;padding:.42rem 1rem;border-radius:50px;transition:background .2s,transform .15s;}
+    .nav-btn:hover{background:var(--tg-dark);transform:translateY(-1px);}
+    @media(max-width:480px){.nav-pill{display:none;}}
+
+    /* HERO */
+    #hero{padding:0;min-height:100svh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;
+      background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(59,130,246,.14) 0%,transparent 70%),radial-gradient(ellipse 60% 40% at 80% 80%,rgba(34,197,94,.07) 0%,transparent 60%),var(--bg);}
+    #hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;}
+    .hero-grid{position:relative;z-index:1;max-width:var(--max);margin-inline:auto;padding:110px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+    .hero-flag{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--border2);border-radius:50px;padding:.36rem 1rem .36rem .55rem;font-size:.78rem;font-weight:500;color:var(--text2);margin-bottom:1.4rem;}
+    .hero-flag-dot{width:20px;height:20px;background:rgba(34,197,94,.18);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--green);}
+    .hero-h1{font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,3.6rem);font-weight:800;line-height:1.08;letter-spacing:-.02em;color:#fff;margin-bottom:1.2rem;}
+    .hero-h1 em{font-style:normal;color:var(--accent2);}
+    .hero-sub{font-size:1.05rem;color:var(--text2);line-height:1.72;margin-bottom:1.75rem;max-width:400px;}
+    .hero-savings{display:inline-flex;align-items:center;gap:10px;background:var(--gold-soft);border:1px solid rgba(245,158,11,.22);border-radius:var(--r);padding:.7rem 1.1rem;margin-bottom:1.4rem;}
+    .hero-savings-text{font-size:.88rem;color:#fbbf24;font-weight:600;}
+    .hero-savings-text strong{color:var(--gold);font-size:1rem;}
+    .hero-urgency{display:flex;align-items:center;gap:9px;background:rgba(239,68,68,.09);border:1px solid rgba(239,68,68,.2);border-radius:var(--r);padding:.65rem 1rem;font-size:.83rem;color:#fca5a5;font-weight:500;margin-bottom:1.8rem;}
+    .hero-urgency svg{color:var(--red);flex-shrink:0;}
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+    .btn-main{display:inline-flex;align-items:center;gap:8px;background:var(--tg);color:#fff;font-family:var(--font);font-size:1rem;font-weight:700;padding:.9rem 1.8rem;border-radius:50px;border:none;cursor:pointer;box-shadow:0 0 0 0 rgba(42,171,238,0);transition:background .2s,transform .15s,box-shadow .3s;}
+    .btn-main:hover{background:var(--tg-dark);transform:translateY(-2px);box-shadow:0 8px 32px rgba(42,171,238,.32);}
+    .btn-main:active{transform:scale(.97);}
+    .btn-ghost2{display:inline-flex;align-items:center;gap:7px;background:transparent;color:var(--text2);font-family:var(--font);font-size:.92rem;font-weight:500;padding:.9rem 1.4rem;border-radius:50px;border:1px solid var(--border2);cursor:pointer;transition:border-color .2s,color .2s,background .2s;}
+    .btn-ghost2:hover{border-color:var(--text2);color:var(--text);background:var(--surface);}
+    .hero-right{position:relative;}
+    .hero-img-wrap{border-radius:var(--rxl);overflow:hidden;box-shadow:var(--shadowlg),0 0 0 1px var(--border);aspect-ratio:4/3;}
+    .hero-img-wrap img{width:100%;height:100%;object-fit:cover;}
+    .hfloat{position:absolute;background:var(--surface);border:1px solid var(--border2);border-radius:var(--r);padding:.75rem 1.1rem;box-shadow:var(--shadow);animation:flt 3.5s ease-in-out infinite;}
+    .hfloat:nth-child(3){animation-delay:-1.4s;}
+    @keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .hfloat.f1{top:-18px;left:-22px;}
+    .hfloat.f2{bottom:28px;right:-22px;}
+    .hf-lbl{font-size:.66rem;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:3px;}
+    .hf-val{font-size:1rem;font-weight:700;color:var(--text);}
+    .hf-val.g{color:var(--green);}
+    .hf-val.a{color:var(--gold);}
+
+    /* PROOF BAR */
+    #proof{padding:20px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);}
+    .proof-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:28px 44px;}
+    .proof-item{display:flex;flex-direction:column;align-items:center;gap:2px;}
+    .proof-num{font-size:1.5rem;font-weight:800;color:var(--text);letter-spacing:-.02em;}
+    .proof-num .a{color:var(--accent2);}
+    .proof-lbl{font-size:.7rem;color:var(--text3);font-weight:500;text-transform:uppercase;letter-spacing:.07em;}
+    .proof-sep{width:1px;height:34px;background:var(--border);}
+
+    /* CALCULATOR */
+    #calc{background:var(--bg2);}
+    .calc-box{background:var(--surface);border:1px solid var(--border2);border-radius:var(--rxl);padding:2.25rem;margin-top:2.5rem;}
+    .calc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:2rem;}
+    .cm{background:var(--surface2);border:1.5px solid var(--border);border-radius:var(--r);padding:.9rem .4rem;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;}
+    .cm:hover{border-color:var(--border2);}
+    .cm.on{border-color:var(--accent);background:rgba(59,130,246,.1);}
+    .cm-chip{font-size:.7rem;font-weight:700;color:var(--accent2);letter-spacing:.06em;margin-bottom:4px;}
+    .cm-p{font-size:.76rem;color:var(--text2);}
+    .calc-res{background:var(--bg3);border-radius:var(--rl);padding:1.5rem;display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid var(--border);overflow:hidden;}
+    .cc{padding:.9rem 1rem;text-align:center;}
+    .cc:not(:last-child){border-right:1px solid var(--border);}
+    .cc-lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text3);margin-bottom:.45rem;}
+    .cc-val{font-size:1.4rem;font-weight:800;color:var(--text);letter-spacing:-.01em;}
+    .cc-val.dim{color:var(--text2);text-decoration:line-through;font-weight:400;font-size:1.05rem;}
+    .cc-val.grn{color:var(--green);}
+    .calc-note{font-size:.76rem;color:var(--text3);text-align:center;margin-top:.9rem;}
+
+    /* MODELS */
+    #models{background:var(--bg);}
+    .models-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;margin-top:2.5rem;}
+    .models-scroll::-webkit-scrollbar{height:3px;}
+    .models-scroll::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px;}
+    .models-row{display:grid;grid-template-columns:repeat(5,minmax(155px,1fr));gap:12px;min-width:800px;}
+    .mcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .22s,box-shadow .22s;position:relative;}
+    .mcard:hover{border-color:var(--border2);transform:translateY(-4px);box-shadow:var(--shadow);}
+    .mcard.best{border-color:var(--accent);}
+    .mcard.best::before{content:'ПОПУЛЯРНЫЙ';position:absolute;top:0;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:.58rem;font-weight:700;letter-spacing:.1em;padding:.2rem .75rem;border-radius:0 0 8px 8px;}
+    .mimg{aspect-ratio:4/3;overflow:hidden;background:#1a1a24;}
+    .mimg img{width:100%;height:100%;object-fit:cover;transition:transform .4s var(--ease);}
+    .mcard:hover .mimg img{transform:scale(1.05);}
+    .mbody{padding:.95rem;display:flex;flex-direction:column;flex:1;}
+    .mchip{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.16rem .6rem;border-radius:50px;margin-bottom:.55rem;align-self:flex-start;}
+    .ch1{background:rgba(120,120,140,.18);color:#8888a0;}
+    .ch2{background:rgba(59,130,246,.14);color:var(--accent2);}
+    .ch3{background:rgba(245,158,11,.14);color:#fbbf24;}
+    .ch4{background:rgba(34,197,94,.14);color:#4ade80;}
+    .ch5{background:rgba(168,85,247,.14);color:#c084fc;}
+    .mname{font-size:.88rem;font-weight:700;color:var(--text);}
+    .myear{font-size:.7rem;color:var(--text3);margin-bottom:.6rem;}
+    .mspecs{display:flex;flex-direction:column;gap:.18rem;margin-bottom:.7rem;flex:1;}
+    .mspec{font-size:.74rem;color:var(--text2);display:flex;align-items:flex-start;gap:.32rem;}
+    .mspec::before{content:'·';color:var(--accent);flex-shrink:0;font-weight:700;}
+    .mpkz{font-size:1.12rem;font-weight:800;color:var(--text);letter-spacing:-.01em;}
+    .mpus{font-size:.7rem;color:var(--text3);margin-top:2px;}
+    .mstatus{display:inline-block;font-size:.63rem;font-weight:600;padding:.16rem .6rem;border-radius:50px;margin-top:.45rem;}
+    .su{background:rgba(120,120,140,.14);color:#8888a0;}
+    .sr{background:rgba(245,158,11,.11);color:#fbbf24;}
+    .sn{background:rgba(34,197,94,.11);color:#4ade80;}
+    .sl{background:rgba(168,85,247,.11);color:#c084fc;}
+
+    /* STEPS */
+    #how{background:var(--bg2);}
+    .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;margin-top:2.5rem;background:var(--border);border-radius:var(--rl);overflow:hidden;border:1px solid var(--border);}
+    .step{background:var(--surface);padding:1.65rem 1.4rem;display:flex;flex-direction:column;gap:.65rem;transition:background .2s;}
+    .step:hover{background:var(--surface2);}
+    .snum{width:34px;height:34px;border-radius:9px;background:rgba(59,130,246,.14);border:1px solid rgba(59,130,246,.22);display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:800;color:var(--accent2);}
+    .step h3{font-size:.93rem;font-weight:700;color:var(--text);}
+    .step p{font-size:.81rem;color:var(--text2);line-height:1.6;}
+
+    /* PAYMENT */
+    #payment{background:var(--bg);}
+    .pay-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:2.5rem;}
+    .pcard{border:1px solid var(--border2);border-radius:var(--rxl);padding:2rem;position:relative;background:var(--surface);transition:border-color .2s;}
+    .pcard.feat{border-color:var(--accent);background:linear-gradient(140deg,rgba(59,130,246,.07) 0%,var(--surface) 60%);}
+    .pcard.feat::after{content:'✓ РЕКОМЕНДУЕМ';position:absolute;top:-1px;right:24px;background:var(--accent);color:#fff;font-size:.6rem;font-weight:700;letter-spacing:.1em;padding:.2rem .78rem;border-radius:0 0 8px 8px;}
+    .plbl{font-size:.68rem;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.65rem;}
+    .ptitle{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:.28rem;}
+    .pamt{font-size:2.1rem;font-weight:800;color:var(--text);letter-spacing:-.02em;line-height:1;margin-bottom:.28rem;}
+    .pamt .cur{font-size:1rem;font-weight:600;vertical-align:super;}
+    .psub{font-size:.8rem;color:var(--text2);margin-bottom:1.1rem;}
+    .pdiv{height:1px;background:var(--border);margin:1rem 0;}
+    .pperks{display:flex;flex-direction:column;gap:.5rem;}
+    .pperk{display:flex;align-items:flex-start;gap:.55rem;font-size:.83rem;color:var(--text2);line-height:1.45;}
+    .ck{color:var(--green);flex-shrink:0;font-weight:700;}
+    .dk{color:var(--text3);flex-shrink:0;}
+    .pcta{display:flex;align-items:center;justify-content:center;gap:7px;width:100%;background:var(--tg);color:#fff;font-family:var(--font);font-size:.93rem;font-weight:700;padding:.82rem;border-radius:var(--r);border:none;cursor:pointer;margin-top:1.4rem;transition:background .2s,transform .15s;}
+    .pcta:hover{background:var(--tg-dark);transform:translateY(-1px);}
+    .pcta.g2{background:transparent;color:var(--text2);border:1px solid var(--border2);}
+    .pcta.g2:hover{background:var(--surface2);color:var(--text);border-color:var(--border2);}
+
+    /* TRUST */
+    #trust{background:var(--bg2);}
+    .trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:14px;margin-top:2.5rem;}
+    .titem{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);padding:1.4rem;display:flex;flex-direction:column;gap:.65rem;transition:border-color .2s,transform .2s;}
+    .titem:hover{border-color:var(--border2);transform:translateY(-2px);}
+    .ticon{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:1.15rem;}
+    .tb{background:rgba(59,130,246,.14);}
+    .tg{background:rgba(34,197,94,.14);}
+    .to{background:rgba(245,158,11,.14);}
+    .tp{background:rgba(168,85,247,.14);}
+    .titem h3{font-size:.92rem;font-weight:700;color:var(--text);}
+    .titem p{font-size:.81rem;color:var(--text2);line-height:1.6;}
+
+    /* URGENCY */
+    #urg{padding:72px 0;background:linear-gradient(135deg,#0f0f1a 0%,#12121f 100%);border-top:1px solid rgba(239,68,68,.18);border-bottom:1px solid rgba(239,68,68,.18);}
+    .urg-in{text-align:center;max-width:580px;margin-inline:auto;padding-inline:24px;}
+    .urg-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(239,68,68,.11);border:1px solid rgba(239,68,68,.22);color:#fca5a5;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:.35rem .88rem;border-radius:50px;margin-bottom:1.4rem;}
+    .urg-dot{width:7px;height:7px;border-radius:50%;background:var(--red);animation:blink 1.5s ease-in-out infinite;}
+    #urg h2{color:#fff;margin-bottom:.75rem;}
+    #urg p{color:var(--text2);margin-bottom:1.6rem;}
+    .spots{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.05);border:1px solid var(--border2);border-radius:var(--r);padding:.85rem 1.4rem;margin-bottom:2rem;}
+    .spot{width:13px;height:13px;border-radius:50%;}
+    .spot.t{background:var(--red);opacity:.38;}
+    .spot.f{background:var(--green);}
+    .spots-txt{font-size:.86rem;color:var(--text2);}
+    .spots-txt strong{color:var(--green);}
+
+    /* FAQ */
+    #faq{background:var(--bg);}
+    .faq-list{display:flex;flex-direction:column;gap:7px;margin-top:2.5rem;}
+    .faq-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;}
+    .faq-item.open{border-color:var(--border2);}
+    .faq-q{display:flex;justify-content:space-between;align-items:center;padding:1.1rem 1.35rem;cursor:pointer;user-select:none;font-size:.93rem;font-weight:600;color:var(--text);gap:1rem;transition:background .15s;}
+    .faq-q:hover{background:var(--surface2);}
+    .faq-icon{width:24px;height:24px;flex-shrink:0;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;transition:transform .3s var(--ease),background .2s;}
+    .faq-item.open .faq-icon{transform:rotate(45deg);background:rgba(59,130,246,.2);}
+    .faq-a{max-height:0;overflow:hidden;padding:0 1.35rem;font-size:.87rem;color:var(--text2);line-height:1.7;transition:max-height .35s var(--ease),padding .35s var(--ease);}
+    .faq-item.open .faq-a{max-height:400px;padding:0 1.35rem 1.15rem;}
+
+    /* FINAL CTA */
+    #final{padding:100px 0;background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(59,130,246,.11) 0%,transparent 70%),var(--bg2);text-align:center;}
+    .fin-in{max-width:580px;margin-inline:auto;padding-inline:24px;}
+    #final h2{font-size:clamp(1.8rem,4vw,2.8rem);color:#fff;margin-bottom:.7rem;}
+    #final p{color:var(--text2);font-size:1.04rem;margin-bottom:2.4rem;}
+    .fin-btn{display:inline-flex;align-items:center;gap:10px;background:var(--tg);color:#fff;font-family:var(--font);font-size:1.05rem;font-weight:700;padding:1rem 2.4rem;border-radius:50px;border:none;cursor:pointer;box-shadow:0 0 40px rgba(42,171,238,.28);transition:background .2s,transform .15s,box-shadow .3s;}
+    .fin-btn:hover{background:var(--tg-dark);transform:translateY(-2px);box-shadow:0 12px 48px rgba(42,171,238,.38);}
+    .fin-meta{margin-top:1.5rem;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;}
+    .fin-mi{display:flex;align-items:center;gap:6px;font-size:.79rem;color:var(--text3);}
+    .fin-mi svg{color:var(--green);}
+
+    /* FOOTER */
+    footer{background:var(--bg);border-top:1px solid var(--border);text-align:center;padding:28px 24px;font-size:.77rem;color:var(--text3);line-height:1.9;}
+
+    /* STICKY */
+    .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(10,10,15,.96);backdrop-filter:blur(20px);border-top:1px solid var(--border2);padding:12px 20px;}
+    .sticky-cta a{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;background:var(--tg);color:#fff;font-size:.93rem;font-weight:700;padding:.82rem;border-radius:var(--r);transition:background .2s;}
+    .sticky-cta a:hover{background:var(--tg-dark);}
+    @media(max-width:640px){.sticky-cta{display:block;}body{padding-bottom:74px;}}
+
+    /* REVEAL */
+    .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s var(--ease),transform .6s var(--ease);}
+    .reveal.vis{opacity:1;transform:none;}
+
+    /* RESPONSIVE */
+    @media(max-width:720px){
+      .hero-grid{grid-template-columns:1fr;gap:36px;padding:88px 24px 60px;}
+      .hero-right{display:none;}
+      .pay-grid{grid-template-columns:1fr;}
+      .calc-grid{grid-template-columns:repeat(3,1fr);}
+      .calc-res{grid-template-columns:1fr;}
+      .cc:not(:last-child){border-right:none;border-bottom:1px solid var(--border);}
+      .proof-sep{display:none;}
+    }
+    @media(max-width:500px){
+      .steps{grid-template-columns:1fr;}
+      .calc-grid{grid-template-columns:repeat(2,1fr);}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-in">
+    <div class="nav-logo">
+      <div class="logo-icon">
+        <svg width="15" height="15" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      </div>
+      <span class="logo-text">MacBook <span>из США</span></span>
+    </div>
+    <div class="nav-right">
+      <div class="nav-pill"><span class="dot"></span>Осталось 2–3 места</div>
+      <a class="nav-btn" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+        <svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+        Написать
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid">
+    <div class="hero-left">
+      <div class="hero-flag">
+        <div class="hero-flag-dot">
+          <svg width="10" height="10" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        Личная доставка из США · Оригинал Apple
+      </div>
+      <h1 class="hero-h1">MacBook Air<br>из США —<br><em>дешевле рынка</em></h1>
+      <p class="hero-sub">Новые запечатанные MacBook Air M1–M5. Привожу лично из американского Apple Store. Без посредников — без наценки.</p>
+      <div class="hero-savings">
+        <span style="font-size:1.1rem;">💰</span>
+        <span class="hero-savings-text">Экономия до <strong>120 000 ₸</strong> по сравнению с магазинами Казахстана</span>
+      </div>
+      <div class="hero-urgency">
+        <svg width="15" height="15" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+        Вылет из США через 7 дней — осталось 2–3 места
+      </div>
+      <div class="cta-row">
+        <a class="btn-main" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+          <svg width="17" height="17" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+          Забронировать в Telegram
+        </a>
+        <a class="btn-ghost2" href="#models">Смотреть модели ↓</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hfloat f1">
+        <div class="hf-lbl">Ваша экономия</div>
+        <div class="hf-val g">до −120 000 ₸</div>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=85&auto=format&fit=crop" alt="MacBook Air" loading="eager" />
+      </div>
+      <div class="hfloat f2">
+        <div class="hf-lbl">Доставка</div>
+        <div class="hf-val a">7–10 дней ✈</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF BAR -->
+<div id="proof">
+  <div class="wrap">
+    <div class="proof-row">
+      <div class="proof-item"><div class="proof-num">120<span class="a">K ₸</span></div><div class="proof-lbl">Экономия vs магазин</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-item"><div class="proof-num">7–10</div><div class="proof-lbl">Дней доставки</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-item"><div class="proof-num">100<span class="a">%</span></div><div class="proof-lbl">Оригинал Apple</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-item"><div class="proof-num">0</div><div class="proof-lbl">Посредников</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-item"><div class="proof-num">1<span class="a"> год</span></div><div class="proof-lbl">Гарантия Apple</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- CALCULATOR -->
+<section id="calc">
+  <div class="wrap reveal">
+    <span class="eyebrow">Калькулятор выгоды</span>
+    <h2>Сколько вы экономите?</h2>
+    <p class="lead">Выберите модель и увидите реальную разницу между нашей ценой и ценой в магазинах Казахстана.</p>
+    <div class="calc-box">
+      <div class="calc-grid" id="calcModels">
+        <div class="cm on" data-kz="650000" data-m="800000" onclick="sc(this)"><div class="cm-chip">M1</div><div class="cm-p">650 000 ₸</div></div>
+        <div class="cm" data-kz="700000" data-m="840000" onclick="sc(this)"><div class="cm-chip">M2</div><div class="cm-p">700 000 ₸</div></div>
+        <div class="cm" data-kz="720000" data-m="860000" onclick="sc(this)"><div class="cm-chip">M3</div><div class="cm-p">720 000 ₸</div></div>
+        <div class="cm" data-kz="740000" data-m="890000" onclick="sc(this)"><div class="cm-chip">M4</div><div class="cm-p">740 000 ₸</div></div>
+        <div class="cm" data-kz="750000" data-m="920000" onclick="sc(this)"><div class="cm-chip">M5</div><div class="cm-p">750 000 ₸</div></div>
+      </div>
+      <div class="calc-res">
+        <div class="cc"><div class="cc-lbl">В магазинах КЗ</div><div class="cc-val dim" id="cM">800 000 ₸</div></div>
+        <div class="cc"><div class="cc-lbl">Наша цена</div><div class="cc-val" id="cO">650 000 ₸</div></div>
+        <div class="cc"><div class="cc-lbl">Вы экономите</div><div class="cc-val grn" id="cS">− 150 000 ₸</div></div>
+      </div>
+      <p class="calc-note">* Рыночные цены КЗ — приблизительные. Уточните актуальные цены в магазинах вашего города.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MODELS -->
+<section id="models">
+  <div class="wrap reveal">
+    <span class="eyebrow">Модели и цены</span>
+    <h2>MacBook Air — M1 до M5</h2>
+    <p class="lead">Все цены — конечные для покупателей в Казахстане. Уточните наличие и конфигурацию в Telegram.</p>
+    <div class="models-scroll">
+      <div class="models-row">
+        <div class="mcard">
+          <div class="mimg"><img src="https://images.unsplash.com/photo-1629360652431-cde31a9d7a24?w=600&q=80&auto=format&fit=crop" alt="MacBook Air M1" loading="lazy"/></div>
+          <div class="mbody">
+            <span class="mchip ch1">M1</span>
+            <div class="mname">MacBook Air</div><div class="myear">2020 · 13.3"</div>
+            <div class="mspecs"><div class="mspec">8-ядерный CPU M1</div><div class="mspec">8 ГБ / 256 ГБ</div><div class="mspec">18 ч. батарея</div><div class="mspec">Retina, Touch ID</div></div>
+            <div class="mpkz">650 000 ₸</div><div class="mpus">~$300–420 в США</div>
+            <span class="mstatus su">Б/у</span>
+          </div>
+        </div>
+        <div class="mcard">
+          <div class="mimg"><img src="https://images.unsplash.com/photo-1659135890063-7fb425893c1f?w=600&q=80&auto=format&fit=crop" alt="MacBook Air M2" loading="lazy"/></div>
+          <div class="mbody">
+            <span class="mchip ch2">M2</span>
+            <div class="mname">MacBook Air</div><div class="myear">2022 · 13.6"</div>
+            <div class="mspecs"><div class="mspec">8-ядерный CPU M2</div><div class="mspec">8–16 ГБ / 256–512 ГБ</div><div class="mspec">18 ч. батарея</div><div class="mspec">Liquid Retina, MagSafe</div></div>
+            <div class="mpkz">700 000 ₸</div><div class="mpus">~$480–620 в США</div>
+            <span class="mstatus sr">Рефарб</span>
+          </div>
+        </div>
+        <div class="mcard">
+          <div class="mimg"><img src="https://images.unsplash.com/photo-1565630916779-e303be97b6f5?w=600&q=80&auto=format&fit=crop" alt="MacBook Air M3" loading="lazy"/></div>
+          <div class="mbody">
+            <span class="mchip ch3">M3</span>
+            <div class="mname">MacBook Air</div><div class="myear">2024 · 13.6" / 15.3"</div>
+            <div class="mspecs"><div class="mspec">8-ядерный CPU M3</div><div class="mspec">8–24 ГБ / до 2 ТБ</div><div class="mspec">18 ч. батарея</div><div class="mspec">2 внешних дисплея</div></div>
+            <div class="mpkz">720 000 ₸</div><div class="mpus">~$600–750 в США</div>
+            <span class="mstatus sr">Рефарб</span>
+          </div>
+        </div>
+        <div class="mcard best">
+          <div class="mimg"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80&auto=format&fit=crop" alt="MacBook Air M4" loading="lazy"/></div>
+          <div class="mbody">
+            <span class="mchip ch4">M4</span>
+            <div class="mname">MacBook Air</div><div class="myear">2025 · 13.6" / 15.3"</div>
+            <div class="mspecs"><div class="mspec">10-ядерный CPU M4</div><div class="mspec">16–32 ГБ / до 2 ТБ</div><div class="mspec">18 ч. батарея</div><div class="mspec">12 Мп камера, 3 экрана</div></div>
+            <div class="mpkz">740 000 ₸</div><div class="mpus">от $999 в США</div>
+            <span class="mstatus sn">Новый</span>
+          </div>
+        </div>
+        <div class="mcard">
+          <div class="mimg"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80&auto=format&fit=crop" alt="MacBook Air M5" loading="lazy"/></div>
+          <div class="mbody">
+            <span class="mchip ch5">M5</span>
+            <div class="mname">MacBook Air</div><div class="myear">2026 · 13.6" / 15.3"</div>
+            <div class="mspecs"><div class="mspec">10-ядерный CPU M5</div><div class="mspec">16–32 ГБ / 512 ГБ–4 ТБ</div><div class="mspec">18 ч. батарея</div><div class="mspec">Wi-Fi 7, Thunderbolt 4</div></div>
+            <div class="mpkz">750 000 ₸</div><div class="mpus">от $1 099 в США</div>
+            <span class="mstatus sl">Новинка</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="wrap reveal">
+    <span class="eyebrow">Как это работает</span>
+    <h2>Пять шагов до вашего MacBook</h2>
+    <p class="lead">Прозрачный процесс. Основную сумму платите только после того, как MacBook у вас в руках.</p>
+    <div class="steps">
+      <div class="step"><div class="snum">1</div><h3>Напишите в Telegram</h3><p>Расскажите, какой MacBook вас интересует. Отвечу в течение часа, уточним модель и цену.</p></div>
+      <div class="step"><div class="snum">2</div><h3>Выберите вариант оплаты</h3><p>Полная предоплата 730 000 ₸ — или частичная 400 000 ₸ с доплатой при получении.</p></div>
+      <div class="step"><div class="snum">3</div><h3>Покупаю в Apple Store США</h3><p>Покупаю именно вашу модель. Фиксирую чек — вы можете попросить фото подтверждения.</p></div>
+      <div class="step"><div class="snum">4</div><h3>Привожу лично за 7–10 дней</h3><p>Прилетаю, сразу выхожу на связь. Встречаемся в удобном месте в вашем городе.</p></div>
+      <div class="step"><div class="snum">5</div><h3>Проверяете — платите остаток</h3><p>Вы вскрываете коробку, проверяете серийный номер на apple.com. Только затем — финальная оплата.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PAYMENT -->
+<section id="payment">
+  <div class="wrap reveal">
+    <span class="eyebrow">Условия оплаты</span>
+    <h2>Выберите удобный вариант</h2>
+    <p class="lead">Оба варианта — с проверкой MacBook перед финальным платежом. Вы ничем не рискуете.</p>
+    <div class="pay-grid">
+      <div class="pcard feat">
+        <div class="plbl">Вариант 1</div>
+        <div class="ptitle">Полная предоплата</div>
+        <div class="pamt"><span class="cur">₸</span> 730 000</div>
+        <div class="psub">Итоговая цена — фиксированная. Без доплат.</div>
+        <div class="pdiv"></div>
+        <div class="pperks">
+          <div class="pperk"><span class="ck">✓</span> Лучшая цена — ниже рынка на 120 000+ ₸</div>
+          <div class="pperk"><span class="ck">✓</span> Приоритетная доставка — ваш MacBook первым</div>
+          <div class="pperk"><span class="ck">✓</span> Никаких доплат при получении</div>
+          <div class="pperk"><span class="ck">✓</span> Перевод через Kaspi Bank</div>
+        </div>
+        <a class="pcta" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+          Выбрать этот вариант
+        </a>
+      </div>
+      <div class="pcard">
+        <div class="plbl">Вариант 2</div>
+        <div class="ptitle">Частичная предоплата</div>
+        <div class="pamt"><span class="cur">₸</span> 400 000</div>
+        <div class="psub">+ 370 000 ₸ при получении = итого 770 000 ₸</div>
+        <div class="pdiv"></div>
+        <div class="pperks">
+          <div class="pperk"><span class="ck">✓</span> Меньше вложений авансом</div>
+          <div class="pperk"><span class="ck">✓</span> Остаток — только после проверки MacBook</div>
+          <div class="pperk"><span class="dk">·</span> Итоговая цена выше на 40 000 ₸</div>
+          <div class="pperk"><span class="dk">·</span> Очерёдность — после Варианта 1</div>
+        </div>
+        <a class="pcta g2" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+          Выбрать этот вариант
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section id="trust">
+  <div class="wrap reveal">
+    <span class="eyebrow">Почему нам доверяют</span>
+    <h2>Покупка без риска</h2>
+    <p class="lead">Каждый шаг построен так, чтобы вы могли убедиться в честности сделки до финального платежа.</p>
+    <div class="trust-grid">
+      <div class="titem"><div class="ticon tb">🔍</div><h3>Проверка при встрече</h3><p>MacBook в запечатанной заводской коробке. Вы вскрываете сами — при мне. Никаких подмен.</p></div>
+      <div class="titem"><div class="ticon tg">🔢</div><h3>Серийный номер Apple</h3><p>Проверяется на apple.com — оригинальность, дата выпуска, статус гарантии. Прозрачно.</p></div>
+      <div class="titem"><div class="ticon to">💳</div><h3>Оплата после проверки</h3><p>Основная сумма — только после вашего подтверждения. Вы убедились сами, потом платите.</p></div>
+      <div class="titem"><div class="ticon tp">✈️</div><h3>Личная доставка</h3><p>Я сам лечу и сам привожу. Не перекупщик — вы общаетесь напрямую с реальным человеком.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY -->
+<section id="urg">
+  <div class="urg-in">
+    <div class="urg-badge"><span class="urg-dot"></span>Осталось мало мест</div>
+    <h2>Вылет из США через 7 дней</h2>
+    <p>Количество мест ограничено — я могу привезти только 2–3 MacBook за рейс. Когда места заканчиваются, следующий рейс нескоро.</p>
+    <div class="spots">
+      <span class="spot t"></span>
+      <span class="spot f"></span>
+      <span class="spot f"></span>
+      <span class="spots-txt">Занято 1 из 3. Свободно <strong>2 места</strong></span>
+    </div>
+    <br>
+    <a class="btn-main" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+      <svg width="17" height="17" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+      Забронировать место сейчас
+    </a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap reveal">
+    <span class="eyebrow">Вопросы и ответы</span>
+    <h2>Частые вопросы</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Почему дешевле, чем в магазинах Казахстана?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a">В США Apple продаёт MacBook Air значительно дешевле, чем в Казахстане. Когда я привожу устройство лично, нет магазинной наценки, нет дистрибьютора, нет логистики. Разница в цене — от 100 000 до 150 000 ₸ в зависимости от модели.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Это точно новый MacBook?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a">M3, M4 и M5 — в запечатанной заводской упаковке Apple. Вы вскрываете сами при встрече. Серийный номер проверяется на apple.com — там виден статус «новый» и дата гарантии. M1 и M2 — рефарб, это оговаривается заранее.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Можно проверить MacBook перед финальной оплатой?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a">Обязательно. Встречаемся лично — вы осматриваете коробку, вскрываете сами, включаете MacBook, проверяете серийный номер. Только после вашего подтверждения — оплата оставшейся суммы.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Какая предоплата и зачем она нужна?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a"><strong>Вариант 1:</strong> полная предоплата 730 000 ₸ — фиксирует цену, приоритетная доставка, доплат нет. <strong>Вариант 2:</strong> частичная предоплата 400 000 ₸, итоговая цена 770 000 ₸ — остаток при получении после проверки. Предоплата нужна, чтобы купить конкретно ваш MacBook в США.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Сколько ждать доставку?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a">7–10 дней с момента оформления заказа. После приземления в Казахстане сразу выхожу на связь и договариваемся о встрече в удобном для вас месте.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="faq(this)">Есть ли гарантия на MacBook?<div class="faq-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div></div>
+        <div class="faq-a">MacBook Air из США поставляется с международной гарантией Apple на 1 год. Устройство регистрируется на apple.com по серийному номеру. Гарантийное обслуживание — в авторизованных сервисных центрах Apple.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="final">
+  <div class="fin-in">
+    <span class="eyebrow" style="justify-content:center;">Готовы купить?</span>
+    <h2>Забронируйте MacBook Air прямо сейчас</h2>
+    <p>Напишите в Telegram — отвечу в течение часа. Уточним модель, цену и вариант оплаты.</p>
+    <a class="fin-btn" href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+      <svg width="19" height="19" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+      Написать в Telegram → @Adri7ano
+    </a>
+    <div class="fin-meta">
+      <div class="fin-mi"><svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 13l4 4L19 7"/></svg>Проверка перед оплатой</div>
+      <div class="fin-mi"><svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 13l4 4L19 7"/></svg>Оригинал Apple + гарантия</div>
+      <div class="fin-mi"><svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 13l4 4L19 7"/></svg>Доставка 7–10 дней</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Частный импорт из США · MacBook Air M1–M5 по ценам ниже рынка</p>
+  <p>Не является официальным дилером Apple. Устройства — оригинальные, проверяются при передаче.</p>
+</footer>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta" id="sc">
+  <a href="https://t.me/Adri7ano" target="_blank" rel="noopener">
+    <svg width="17" height="17" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M22.27.08 1.03 8.52C-.34 9.07-.14 10.12.91 10.44l5.17 1.62 2 6.3c.25.77 1.04.99 1.64.49l2.9-2.39 5.61 4.1c.78.58 1.77.22 2.02-.72L23.97 1.96C24.22.98 23.37.08 22.27.08ZM9.36 13.06l-.47 4.46-1.71-5.37 11.25-7.13-9.07 8.04Z"/></svg>
+    Забронировать в Telegram — осталось 2 места
+  </a>
+</div>
+
+<script>
+  /* Calculator */
+  function sc(el){
+    document.querySelectorAll('.cm').forEach(m=>m.classList.remove('on'));
+    el.classList.add('on');
+    const kz=parseInt(el.dataset.kz), m=parseInt(el.dataset.m), s=m-kz;
+    const f=n=>n.toLocaleString('ru-RU')+' ₸';
+    document.getElementById('cM').textContent=f(m);
+    document.getElementById('cO').textContent=f(kz);
+    document.getElementById('cS').textContent='− '+f(s);
+  }
+  sc(document.querySelector('.cm.on'));
+
+  /* FAQ */
+  function faq(el){
+    const item=el.closest('.faq-item'), open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+    if(!open) item.classList.add('open');
+  }
+
+  /* Scroll reveal */
+  const io=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target);}});
+  },{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  /* Sticky hide on hero */
+  const sticky=document.getElementById('sc');
+  new IntersectionObserver(([e])=>{
+    sticky.style.opacity=e.isIntersecting?'0':'1';
+    sticky.style.pointerEvents=e.isIntersecting?'none':'auto';
+    sticky.style.transition='opacity .3s';
+  },{threshold:.2}).observe(document.getElementById('hero'));
+</script>
+</body>
+</html>
